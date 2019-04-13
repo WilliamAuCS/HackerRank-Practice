@@ -10,9 +10,9 @@ int main()
 {
 	/* Enter your code here. Read input from STDIN. Print output to STDOUT */
 
-	int length;
+	int length;		//length of the given list of numbers
 	cin >> length;
-	int array1[1000];
+	int array1[1000];	//creating array
 	int holder;
 
 	for (size_t i = 0; i < length; i++)
@@ -22,7 +22,7 @@ int main()
 	}
 	for (int i = length -1; i >= 0; i--)
 	{
-		cout << array1[i] << " ";
+		cout << array1[i] << " ";	//outputting array in reverse order
 	}
 
 	return 0;
